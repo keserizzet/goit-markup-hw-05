@@ -334,13 +334,12 @@ footer{
     padding: 100px 0;
 }
 footer .container{
-display: flex;
-gap: 25px;
-width: 1158px;
-align-items: start;
-position: relative;
-left: 21%;
-
+    display: flex;
+    gap: 69px;
+    width: 1260px;
+    align-items: start;
+    position: relative;
+    left: 18%;
 }
 footer .container .sol{
     display: flex;
@@ -387,3 +386,81 @@ footer p{
     color: #F4F4FD;
     
 }
+footer .subscribe{
+    margin-left: 15%;
+}
+.subscribe-form {
+    width: 100%;
+  }
+  
+  .form-group input[type="email"],
+  .form-group input[type="submit"] {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group label{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+    
+  }
+  input[type="email"],
+  input[type="submit"] {
+    margin-top: 5px;
+    display: inline-block;
+  }
+  
+  input[type="email"] {
+    margin-right: 10px;
+    width: 264px;
+    height: 40px;
+    gap: 0px;
+    border-radius: 5px;
+    border: 1px 0px 0px 0px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+input::placeholder{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-align: left;
+    color: #fff;
+}
+input[type="submit"] {
+    width: 160px;
+    height: 40px;
+    top: 140px;
+    left: 1116px;
+    padding: 8px 24px 8px 24px;
+    gap: 16px;
+    border-radius: 5px;
+    background-color: #4D5AE5;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[value="Subscribe"]{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-align: left;
+  }
+  .subscribe-form svg{
+    position: relative;
+    right: 55px;
+    top: 7px;
+    cursor: pointer;
+  }
+  
