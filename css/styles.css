@@ -362,7 +362,8 @@ form .kutu #scales{
 }
 
 .yazilar h2{
-    font-size: 30px;
+    font-size: 25px;
+    color: #2E2F42;
 }
 .yazilar li{
     display: flex;
@@ -397,6 +398,7 @@ form .kutu #scales{
 }
 .yazilar ul li p{
     font-size: 18px;
+    color: #434455;
 }
 .team{
     height: 800px;
@@ -552,10 +554,10 @@ footer{
 footer .container{
     display: flex;
     gap: 15px;
-    width: 1465px;
+    width: 1262px;
     align-items: start;
     position: relative;
-    left: 18%;
+    left: 9%;
 }
 footer .container .sol{
     display: flex;
@@ -603,7 +605,8 @@ footer p{
     
 }
 footer .subscribe{
-    margin-left: 15%;
+    position: relative;
+    left: 18%;
 }
 .subscribe-form {
     width: 100%;
