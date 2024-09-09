@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    font-weight: 700;
 }
 header .menuler{
     display: flex;
@@ -61,7 +62,7 @@ header .menu{
     cursor: pointer;
 }
 header nav ul li a:hover{
-    color: #9747FF;
+    color: #404BBF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
               background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
               box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -76,14 +77,14 @@ header nav ul li a:after{
     background-color: #404BBF;
 }
 header nav ul li a:active{
-    border-bottom: 3px solid #9747FF;
+    border-bottom: 3px solid #404BBF;
 }
 header .contact{
     display: flex;
     gap: 15px;
 }
 header .contact a:hover{
-    color: #9747FF;
+    color: #404BBF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
               background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
               box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -113,6 +114,7 @@ header .contact a:hover{
     font-size: 50px;
     color: #ffffff;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 .modal-button:hover{
@@ -364,6 +366,7 @@ form .kutu #scales{
 .yazilar h2{
     font-size: 25px;
     color: #2E2F42;
+    font-weight: 700;
 }
 .yazilar li{
     display: flex;
@@ -399,6 +402,7 @@ form .kutu #scales{
 .yazilar ul li p{
     font-size: 18px;
     color: #434455;
+    font-weight: 700;
 }
 .team{
     height: 800px;
@@ -417,6 +421,7 @@ form .kutu #scales{
     justify-content: center;
     padding: 7% 0px 50px;
     font-size: 30px;
+    font-weight: 700;
 }
 .team ul {
     display: flex;
@@ -458,9 +463,11 @@ form .kutu #scales{
     font-size: 22px;
     color: #2E2F42;
     padding-bottom: 20px;
+    font-weight: 700;
 }
 .team ul li .name p{
     color: #434455;
+    font-weight: 700;
 }
 .portfolio{
     height: 1200px;
@@ -481,7 +488,7 @@ form .kutu #scales{
     font-size: 30px;
     display: flex;
     justify-content: center;
-    
+    font-weight: 700;
 }
 .portfolio ul{
     display: grid;
@@ -629,7 +636,7 @@ footer .subscribe{
     letter-spacing: 0.02em;
     text-align: left;
     color: #fff;
-    
+    font-weight: 700;
   }
   input[type="email"]
    {
@@ -673,6 +680,7 @@ input[type="submit"] {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 700;
 }
 .mailbutton{
     display: flex;
