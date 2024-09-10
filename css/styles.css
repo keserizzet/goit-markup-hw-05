@@ -7,7 +7,13 @@ h1, h2, h3, h4, h5, h6, p, ul{
     margin: 0;
     padding: 0;
     list-style: none;
-    font-weight: 700;
+
+}
+.portfolio ul li .name h4{
+    font-weight: 500;
+}
+.portfolio ul li .name p{
+    font-weight: 400;
 }
 header .menuler{
     display: flex;
@@ -42,7 +48,7 @@ header .menuler .sag ul{
     gap: 25px;
     align-items: center;
 }
-header a{
+header .stud{
     text-decoration: none;
     color: #2E2F42;
     font-weight: 700;
@@ -50,8 +56,21 @@ header a{
     font-size: 18px;
     padding: 20px;
 }
+header .stud span{
+    color: #4D5AE5;
+    font-weight: 700;
+}
+header a{
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 500;
+    font-family:  "Raleway", sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
 header a span{
     color: #4D5AE5;
+    font-weight: 700;
 }
 header nav ul li{
     list-style: none;
@@ -82,6 +101,7 @@ header nav ul li a:active{
 header .contact{
     display: flex;
     gap: 15px;
+    font-weight: 400;
 }
 header .contact a:hover{
     color: #404BBF;
@@ -140,7 +160,7 @@ header .contact a:hover{
     border-radius: 5px;
     background-color: #4D5AE5;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     padding: 0;
     padding-top: 20px;
@@ -366,7 +386,7 @@ form .kutu #scales{
 .yazilar h2{
     font-size: 25px;
     color: #2E2F42;
-    font-weight: 700;
+    font-weight: 500;
 }
 .yazilar li{
     display: flex;
@@ -402,7 +422,7 @@ form .kutu #scales{
 .yazilar ul li p{
     font-size: 18px;
     color: #434455;
-    font-weight: 700;
+    font-weight: 400;
 }
 .team{
     height: 800px;
@@ -463,11 +483,11 @@ form .kutu #scales{
     font-size: 22px;
     color: #2E2F42;
     padding-bottom: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .team ul li .name p{
     color: #434455;
-    font-weight: 700;
+    font-weight: 400;
 }
 .portfolio{
     height: 1200px;
@@ -547,6 +567,7 @@ form .kutu #scales{
     padding: 50px;
     font-size: 17px;
     color: #fff;
+    font-weight: 400;
   }
   .portfolio-list:active .image-container .overlay,
   .portfolio-list:focus-within .image-container .overlay {
@@ -561,10 +582,9 @@ footer{
 footer .container{
     display: flex;
     gap: 15px;
-    width: 1262px;
+    width: 1255px;
     align-items: start;
-    position: relative;
-    left: 9%;
+    margin-left: 13%;
 }
 footer .container .sol{
     display: flex;
@@ -606,14 +626,15 @@ footer a{
 }
 footer a span{
     color: #4D5AE5;
+    font-weight: 700;
 }
 footer p{
     color: #F4F4FD;
-    
+    font-weight: 400;
 }
 footer .subscribe{
     position: relative;
-    left: 18%;
+    left: 14%;
 }
 .subscribe-form {
     width: 100%;
@@ -636,7 +657,7 @@ footer .subscribe{
     letter-spacing: 0.02em;
     text-align: left;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
   }
   input[type="email"]
    {
@@ -680,10 +701,13 @@ input[type="submit"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 500;
 }
 .mailbutton{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+footer .container .sag h3{
+    font-weight: 500;
 }
